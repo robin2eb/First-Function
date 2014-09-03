@@ -1,0 +1,11 @@
+structures <- function(){
+	greeting <- "First Function"
+	vector <- c(2,4,6,8,10,12)
+	frame <- data.frame(First=c(2,4,6),Function=c(8,10,12))
+	list <- list(2,4,6,frame,10)
+	new_list <- c(list,12)
+	closing <- The End
+	return(list(greeting,vector,frame,new_list,closing))
+	}
+
+	
